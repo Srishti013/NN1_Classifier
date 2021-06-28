@@ -1,1 +1,1 @@
-# NN1_Classifier
+# NN1_Classifier for Time Series Analysis
