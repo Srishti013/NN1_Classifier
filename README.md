@@ -1,6 +1,6 @@
 # NN1_Classifier
 
-* Results obtained by my model.
+
 
 | ID  |  Name |  Train | Test | Class | Default Rate(obtained) | Default Rate(actual)  |
 |-----|-------|--------|------|-------|--------------|---------|
