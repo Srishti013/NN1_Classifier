@@ -76,5 +76,7 @@
 | 73	| Sensor	| Trace	| 100	| 100	| 4	| 0.7800  | 0.7100 |
 | 74	| TwoLeadECG	| 23	| 1139	| 2 | 0.4952  | 0.4996 |
 | 75	| TwoPatterns	| 1000	| 4000	| 4 | 0.7435  | 0.7412 |
-| 76 | UWaveGestureLibraryAll	| 896	| 3582	| 8	|   | 0.8716 |
+| 76 | UWaveGestureLibraryAll	| 896	| 3582	| 8	| 0.8719  | 0.8716 |
 | 77 | UWaveGestureLibraryX	| 896	| 3582	| 8 |   |0.8716|
+| 78	| UWaveGestureLibraryY	| 896	| 3582	| 8	|  0.8760 | 0.8716 |
+| 79	| UWaveGestureLibraryZ	| 896	| 3582	| 8	|     | 0.8716 | 
