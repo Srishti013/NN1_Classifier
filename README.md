@@ -1,5 +1,12 @@
 # NN1_Classifier
 
+This model basically compares the distances between the test and training time series data provided. The training series which has the least
+distance with a particular test series is considered and its label is assigned to the test series. After that error is calculated and is shown in the table below.
+Three types of distances are considered here to figure out which one of them works out the best. These three types of distances are:
+1) Dynammic time wraping(DTW) distance
+2) Euclidean Distance(Ed) 
+3) Contrained dynammic time warping (DTW(learned_dtw)) distance.
+
 
 
 | ID  |  Name |  Train | Test  | Class | Length | Ed | DTW((learned_w) | DTW(w=100) |
@@ -75,7 +82,7 @@
 |70	|	SyntheticControl	|300|	300	|6	|60	|0.1200|	0.0167 (6)	|0.0067|
 |71	|	ToeSegmentation1	|40|	228	|2	|277	|0.3202|	0.2500 (8)	|0.2281|	
 |72	|ToeSegmentation2	|36	|130	|2	|343	|0.1923	|0.0923 (5)	|0.1615|	
-|73	|	Trace	100	|100	|4|	275	|0.2400	|0.0100 (3)|	0.0000	|
+|73	|	Trace |	100	|100	|4|	275	|0.2400	|0.0100 (3)|	0.0000	|
 |74	|TwoLeadECG	|23	|1139	|2	|82|	0.2529	|0.1317 (4)|	0.0957	|
 |75	|TwoPatterns	|1000	|4000	|4	|128|	0.0932	|0.0015 (4)|	0.0000|	
 |76	|	UWaveGestureLibraryAll	|896|	3582	|8	|945	|0.0519	|0.0343 (4)|	0.1083	|
