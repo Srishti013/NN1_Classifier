@@ -1,4 +1,4 @@
-# NN1_Classifier
+# NN1_Classifier for Time Series Classification
 
 This model basically compares the distances between the test and training time series data provided. The training series which has the least
 distance with a particular test series is considered and its label is assigned to the test series. After that error is calculated and is shown in the table below.
