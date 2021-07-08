@@ -18,8 +18,6 @@ def load_dataset (path) :
 
 #Euclidean
 def Euclidean(np_test,np_train,np_test_label,np_train_label) :
-    min_ed = math.inf 
-    min_y = math.inf 
     d=0
     for i in range(len(np_test)):
         q = np_test[i]
