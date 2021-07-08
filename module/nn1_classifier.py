@@ -39,16 +39,14 @@ def Euclidean(np_test,np_train,np_test_label,np_train_label) :
 
 # DTW
 def dtw(np_test,np_train,np_test_label,np_train_label):
-    min_dtw =math.inf 
-    min_y = math.inf 
     d=0
     for i in range(len(np_test)):
         q = np_test[i]
-        min_dtw =sys.maxsize
-        min_y = sys.maxsize
+        min_dtw = math.inf
+        min_y = math.inf
         for j in range(len(np_train)):
             c= np_train[j]
-            v = ud.dtw(q, c)
+            v = ud.dtw(q, c,min_dtw)
             if(v<min_dtw):
                 min_dtw = v
                 min_y = np_train_label[j]
@@ -59,17 +57,15 @@ def dtw(np_test,np_train,np_test_label,np_train_label):
 
 
 #cdtw
-def cdtw(np_test,np_train,np_test_label,np_train_label,w):
-    min_cdtw = math.inf 
-    min_y = math.inf 
+def cdtw(np_test,np_train,np_test_label,np_train_label,w,length):
     d=0
     for i in range(len(np_test)):
         q = np_test[i]
-        min_cdtw =sys.maxsize
-        min_y = sys.maxsize
+        min_cdtw =math.inf
+        min_y = math.inf
         for j in range(len(np_train)):
             c= np_train[j]
-            v = ud.cdtw(q, c, w)
+            v = ud.cdtw(q, c, round(w*(length/100)),min_cdtw)
             if(v<min_cdtw):
                 min_cdtw = v
                 min_y = np_train_label[j]

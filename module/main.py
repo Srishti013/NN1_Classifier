@@ -1,3 +1,4 @@
+
 import nn1_classifier as module
 import pandas as pd
 Name =['Adiac','ArrowHead','Beef','BeetleFly','BirdChicken','Car','CBF','ChlorineConcentration','Coffee','Computers','CricketX','CricketY','CricketZ','DiatomSizeReduction','DistalPhalanxOutlineAgeGroup','DistalPhalanxOutlineCorrect','DistalPhalanxTW','Earthquakes','ECG200','ECG5000','ECGFiveDays','ElectricDevices','FaceAll','FaceFour','FacesUCR','FiftyWords','Fish','FordA','FordB','GunPoint','Ham','HandOutlines','Haptics','Herring','InlineSkate','ItalyPowerDemand','LargeKitchenAppliances','Lightning2','Lightning7','Mallat','Meat','MedicalImages','MiddlePhalanxOutlineAgeGroup','MiddlePhalanxOutlineCorrect','MiddlePhalanxTW','MoteStrain','NonInvasiveFetalECGThorax1','NonInvasiveFetalECGThorax2','OliveOil','OSULeaf','PhalangesOutlinesCorrect','Phoneme','Plane','ProximalPhalanxOutlineAgeGroup','ProximalPhalanxOutlineCorrect','ProximalPhalanxTW','RefrigerationDevices','ScreenType','ShapeletSim','ShapesAll','SmallKitchenAppliances','SonyAIBORobotSurface1','SonyAIBORobotSurface2','Strawberry','SwedishLeaf','Symbols','SyntheticControl','ToeSegmentation1','ToeSegmentation2','Trace','TwoLeadECG','TwoPatterns','UWaveGestureLibraryAll','UWaveGestureLibraryX','UWaveGestureLibraryY','UWaveGestureLibraryZ','Wafer','Wine','WordSynonyms','Worms','WormsTwoClass','Yoga','ACSF1','BME','Chinatown','Crop','DodgerLoopDay','DodgerLoopGame','DodgerLoopWeekend','EOGHorizontalSignal','EOGVerticalSignal','EthanolLevel','FreezerRegularTrain','FreezerSmallTrain','Fungi','GunPointAgeSpan','GunPointMaleVersusFemale','GunPointOldVersusYoung','HouseTwenty','InsectEPGRegularTrain','InsectEPGSmallTrain','MelbournePedestrian','MixedShapesSmallTrain','PigAirwayPressure','PigArtPressure','PigCVP','PowerCons','Rock','SemgHandGenderCh2','SemgHandMovementCh2','SemgHandSubjectCh2','SmoothSubspace','UMD']
@@ -20,10 +21,10 @@ for i in range(len(l)):
 
 result =   {
     "Name" : Name,
-    "Ed" : ed,
-    "DTW" : dtw,
-    "DTW(learned_w)": cdtw
+    "Ed"  : ed,
+    "DTW(learned_w)": cdtw,
+     "DTW" : dtw
 }   
 d = pd.DataFrame(result)
-print(d)
+d.to_csv('result.csv')
 
