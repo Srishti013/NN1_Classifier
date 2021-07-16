@@ -20,4 +20,4 @@ result =   {
     "Ed"  : ed,
 }   
 d = pd.DataFrame(result)
-d.to_csv('result_real_imag.csv')
+d.to_csv('result_amplitude.csv')
