@@ -12,9 +12,12 @@ def load_dataset (path) :
     ds = arff.loadarff(path)
     df = pd.DataFrame(ds[0])
     data=df.iloc[:,:-1].to_numpy()
-    data = np.sqrt(((np.fft.fft2(data)).real)**2 + ((np.fft.fft2(data)).imag)**2)
     label=df.iloc[:,-1].to_numpy().astype(int)
     return (data, label)
+
+def fourier_transform(data):
+    data = np.sqrt(((np.fft.fft(data)).real)**2 + ((np.fft.fft(data)).imag)**2)
+    return data
 
 #Euclidean
 def Euclidean(np_test,np_train,np_test_label,np_train_label) :
