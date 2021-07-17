@@ -1,3 +1,3 @@
-Wins = 28 <br>
-Ties = 13 <br>
-Loss = 72 <br>
+Wins = 22<br>
+Ties = 26<br>
+Loss = 65 
