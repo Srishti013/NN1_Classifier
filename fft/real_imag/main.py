@@ -15,11 +15,11 @@ for i in range(len(l)):
     fft_test =module.fourier_transform(np_test)
     fft_train_real,fft_train_imag= module.real_imaginary_values(fft_train)
     fft_test_real,fft_test_imag= module.real_imaginary_values(fft_test)
-    edx = module.complex_euclidean(fft_test_imag,fft_test_real,fft_train_imag,fft_train_real,np_test_label,np_train_label)
+    edx = module.complex_euclidean(fft_train_real,fft_test_real,fft_test_imag,fft_train_imag,np_test_label,np_train_label)
     ed.append( float("{0:.4f}".format(1-edx)))
 result =   {
     "Name" : Name,
     "Ed"  : ed,
 }   
 d = pd.DataFrame(result)
-d.to_csv('result_complex_euclidean.csv')
+d.to_csv('result_imag.csv')
