@@ -34,7 +34,7 @@ def complex_euclidean(fft_test_imag,fft_test_real,fft_train_imag,fft_train_real,
         for j in range(len(fft_train_real)):
             c_real= fft_train_real[j]
             c_imag= fft_train_imag[j]
-            v = np.linalg.norm(q_real - c_real) +  np.linalg.norm(q_imag - c_imag)
+            v = np.linalg.norm((q_real - c_real) + (q_imag - c_imag))
             if(v<min_ed):
                 min_ed = v
                 min_y = np_train_label[j]
