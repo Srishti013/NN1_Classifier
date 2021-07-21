@@ -27,15 +27,14 @@ def real_imaginary_values(data):
     return data
 
 def phase_amplitude(data):
-    data_amplitude = np.sqrt((data.real)**2 + (data.imag)**2)
-    data_phase = np.arctan((data.real/data.imag) )
-    return data_amplitude,data_phase
+    data = np.ascontiguousarray(np.vstack((np.sqrt((data.real)**2 + (data.imag)**2), np.arctan((data.real/data.imag) ))).T)
+    data_rows, data_cols = data.shape
+    data = data.reshape(data_cols,data_rows)
+    return data
 
 #Euclidean
 def Euclidean(np_test,np_train,np_test_label,np_train_label) :
     d=0
-    x=0
-    y=0
     for i in range(len(np_test)):
         q = np_test[i]
         min_ed =sys.maxsize
@@ -45,15 +44,9 @@ def Euclidean(np_test,np_train,np_test_label,np_train_label) :
             v = np.linalg.norm(q - c) 
             if(v<min_ed):
                 min_ed = v
-                min_y = np_train_label[x]
-            x=x+1
-            if x>len(np_train_label)-1:
-                x=0
-        if min_y == np_test_label[y]:
-            d = d + 1  
-        y=y+1    
-        if y>len(np_test_label)-1:
-                y=0      
+                min_y = np_train_label[j]
+        if min_y == np_test_label[i]:
+            d = d + 1     
     result = d/len(np_test_label)        
     return result
 
