@@ -1,3 +1,3 @@
-Wins = 47
-Ties = 2
-Loss = 64 
+Wins = 47<br>
+Ties = 2<br>
+Loss = 64 <br>
