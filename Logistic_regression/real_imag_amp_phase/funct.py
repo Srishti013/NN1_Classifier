@@ -100,7 +100,7 @@ def cdtw(np_test,np_train,np_test_label,np_train_label,w,length):
     return result
 
 def logistic_regression(np_train,np_test,np_train_label,np_test_label):
-    model=LogisticRegression()
+    model=LogisticRegression(solver='lbfgs', max_iter=math.inf)
     model.fit(np_train,np_train_label)
     new_labels  = model.predict(np_test)
     ans=0
