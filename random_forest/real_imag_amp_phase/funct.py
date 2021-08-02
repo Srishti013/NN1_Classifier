@@ -5,11 +5,10 @@ import pytempo
 import sys
 import math
 from scipy.fft import fft
-from itertools import *
-from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import scale
+from sklearn import preprocessing
 
 ud = pytempo.univariate.distances
 
@@ -20,23 +19,26 @@ def load_dataset (path) :
     label=df.iloc[:,-1].to_numpy().astype(int)
     print(data.shape)
     return (data, label)
-def scale_dataset(data):
-    data = scale(data)
-    return data
+
 def fourier_transform(data):
     data = np.fft.fft(data) 
     return data
 
 def real_imaginary_values(data):
-    data = np.concatenate((data.real, data.imag,np.sqrt((data.real)**2 + (data.imag)**2), np.arctan((data.real/data.imag) )), axis=1)
+    data = np.concatenate((data.real, data.imag), axis=1)
     print(data.shape)
     return data
 
 def phase_amplitude(data):
-    data = np.ascontiguousarray(np.vstack((np.sqrt((data.real)**2 + (data.imag)**2), np.arctan((data.real/data.imag) ))).T)
-    data_rows, data_cols = data.shape
-    data = data.reshape(data_cols,data_rows)
+    data =  np.concatenate((np.sqrt((data.real)**2 + (data.imag)**2), np.arctan((data.real/data.imag) )), axis=1)
+    print(data.shape)
     return data
+
+def real_imag_phase_amp(data):
+    data =  np.concatenate((np.sqrt((data.real)**2 + (data.imag)**2), np.arctan((data.real/data.imag) ) , data.real,data.imag), axis=1)
+    print(data.shape)
+    return data
+
 
 #Euclidean
 def Euclidean(np_test,np_train,np_test_label,np_train_label) :
@@ -95,7 +97,7 @@ def cdtw(np_test,np_train,np_test_label,np_train_label,w,length):
     return result
 
 def logistic_regression(np_train,np_test,np_train_label,np_test_label):
-    model=LogisticRegression()
+    model=LogisticRegression(solver='lbfgs', max_iter=math.inf)
     model.fit(np_train,np_train_label)
     new_labels  = model.predict(np_test)
     ans=0
@@ -106,7 +108,7 @@ def logistic_regression(np_train,np_test,np_train_label,np_test_label):
     return ans
 
 def random_forest(np_train,np_test,np_train_label,np_test_label):
-    model = RandomForestClassifier(n_estimators = 100)
+    model = RandomForestClassifier(n_estimators = 10000)
     model.fit(np_train,np_train_label) 
     new_labels = model.predict(np_test)
     ans=0
