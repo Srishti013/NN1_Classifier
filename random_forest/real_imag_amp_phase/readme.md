@@ -3,8 +3,8 @@ Ties = 4<br>
 Loss = 58 <br>
 
 * n_estimators=100<br>
-Wins =48<br>
-Ties = 1<br>
+Wins =49<br>
+Ties = 2<br>
 Loss = 64 <br>
 
 * n_estimators=1000<br>
