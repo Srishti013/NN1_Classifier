@@ -11,3 +11,8 @@ Loss = 62 <br>
 Wins =53<br>
 Ties = 3<br>
 Loss = 57 <br>
+
+* n_estimators=500<br>
+Wins =51<br>
+Ties = 3<br>
+Loss = 59 <br>
