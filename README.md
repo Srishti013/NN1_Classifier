@@ -127,7 +127,7 @@
 ![ Random Forest Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Random%20Forest(3).jpg)
 
 #### 19) All Models
-![All Models](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/All_models.jpg)
+![All Models](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/All_models-2.jpg)
 
 
 
