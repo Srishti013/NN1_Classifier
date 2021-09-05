@@ -91,33 +91,40 @@
 ![Logistic Regression(3)](/scatter_plots/Logistic_Regression(3).jpg)
 
 #### 7) Nearest Neighbour(1)
-![Neighourest Neighbour(1)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(1).jpg)
+![Nearest Neighbour(1)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(1)-2.jpg)
 
 #### 8) Nearest Neighbour(2)
-![Neighourest Neighbour(2)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(2).jpg)
+![Nearest Neighbour(2)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(2)-2.jpg)
 
 #### 9) Nearest Neighbour(3)
-![Neighourest Neighbour(3)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(3).jpg)
+![Nearest Neighbour(3)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(3)-2.jpg)
 
 #### 10) Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(1)
-![Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(1)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(DTW)_VS_Neighourest%20Neighbour(ED)(1).jpg)
+![Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(1)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Nearest%20Neighbour(ED)(1).jpg)
 
-#### 12) Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(2)
-![Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(2)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(DTW)_VS_Neighourest%20Neighbour(ED)(2).jpg)
+#### 11) Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(2)
+![Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(2)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Nearest%20Neighbour(ED)(2).jpg)
 
-#### 13) Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(3)
-![Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(3)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(DTW)_VS_Neighourest%20Neighbour(ED)(3).jpg)
+#### 12) Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(3)
+![Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(3)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Nearest%20Neighbour(ED)(3).jpg)
 
+#### 13) Logistic Regression Vs Neighourest Neighbour(DTW)(1)
+![ Logistic Regression Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Logistic%20Regression(1).jpg)
 
-#### 12) Logistic Regression Vs Neighourest Neighbour
-![ Logistic Regression Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
+#### 14) Logistic Regression Vs Neighourest Neighbour(DTW)(2)
+![ Logistic Regression Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Logistic%20Regression(2).jpg)
 
-#### 13) Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)
-![Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
+#### 15) Logistic Regression Vs Neighourest Neighbour(DTW)(3)
+![ Logistic Regression Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Logistic%20Regression(3).jpg)
 
-#### 14) Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)
-![Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
+#### 16) Random Forest Vs Neighourest Neighbour(DTW)(1)
+![ Random Forest Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Random%20Forest(1).jpg)
 
+#### 17) Random Forest Vs Neighourest Neighbour(DTW)(2)
+![ Random Forest Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Random%20Forest(2).jpg)
+
+#### 18) Random Forest Vs Neighourest Neighbour(DTW)(3)
+![ Random Forest Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Nearest%20Neighbour(DTW)_VS_Random%20Forest(3).jpg)
 
 #### 19) All Models
 ![All Models](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/All_models.jpg)
