@@ -1,6 +1,6 @@
 # Time Series Classification
 
-* In this project I have developed a Time Series classification model based on Fourier Transform. I have used three classifiers Random Forest, Logistic Regression and Neighourest Neighbour. After that I have compared their performances using scatter plots.
+* In this project I have developed a Time Series classification model based on Fourier Transform. I have used three classifiers Random Forest, Logistic Regression and Nearest Neighbour. After that I have compared their performances using scatter plots.
 
 * The datasets used to make the models are present [here](/datasets/readme.md)
 
@@ -90,13 +90,13 @@
 #### 6) Logistic Regression(3)
 ![Logistic Regression(3)](/scatter_plots/Logistic_Regression(3).jpg)
 
-#### 7) Neighourest Neighbour(1)
+#### 7) Nearest Neighbour(1)
 ![Neighourest Neighbour(1)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(1).jpg)
 
-#### 8) Neighourest Neighbour(2)
+#### 8) Nearest Neighbour(2)
 ![Neighourest Neighbour(2)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(2).jpg)
 
-#### 9) Neighourest Neighbour(3)
+#### 9) Nearest Neighbour(3)
 ![Neighourest Neighbour(3)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour(3).jpg)
 
 #### 10) Nearest Neighbour(DTW) VS Nearest Neighbour(ED)(1)
@@ -110,13 +110,13 @@
 
 
 #### 12) Logistic Regression Vs Neighourest Neighbour
-![ Logistic Regression Vs Neighourest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
+![ Logistic Regression Vs Nearest Neighbour](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
 
 #### 13) Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)
-![Neighourest Neighbour(DTW) VS Neighourest Neighbour(Ed-on Fourier Transform)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
+![Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
 
 #### 14) Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)
-![Neighourest Neighbour(DTW) VS Neighourest Neighbour(Ed-on Fourier Transform)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
+![Nearest Neighbour(DTW) VS Nearest Neighbour(Ed-on Fourier Transform)](https://github.com/Srishti013/Time_Series_Classification/blob/main/scatter_plots/Neighourest%20Neighbour_VS_Logistic%20Regression.jpg)
 
 
 #### 19) All Models
