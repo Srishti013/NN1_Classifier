@@ -21,8 +21,8 @@ def Euclidean(np_test,np_train,np_test_label,np_train_label) :
     d=0
     for i in range(len(np_test)):
         q = np_test[i]
-        min_ed =sys.maxsize
-        min_y = sys.maxsize
+        min_ed =sys.maxsize # To store minimum euclidean distance 
+        min_y = sys.maxsize # To store the class label having minimum euclidean distance
         for j in range(len(np_train)):
             c= np_train[j]
             v = np.linalg.norm(q - c)
