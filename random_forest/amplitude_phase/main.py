@@ -21,7 +21,6 @@ for i in range(len(l)):
     fft_test=np.nan_to_num(fft_test)
     fft_train=np.nan_to_num(fft_train)
     ansx = module.random_forest(fft_train,fft_test,np_train_label,np_test_label)
-    print(f'{i}:{ansx}')
     ans.append(float("{0:.4f}".format(1-ansx)))
 result =   {
     "Name" : Name,
