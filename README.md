@@ -6,7 +6,7 @@
 
 ## Results
 
-* [Results](results.csv)
+* [Results](https://github.com/Srishti013/Time_Series_Classification/blob/main/result.csv)
 
 * These results show the error values each model has with the corresponding dataset.
 
