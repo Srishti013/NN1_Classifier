@@ -18,7 +18,6 @@ def load_dataset (path) :
     df = pd.DataFrame(ds[0])
     data=df.iloc[:,:-1].to_numpy()
     label=df.iloc[:,-1].to_numpy().astype(int)
-    print(data.shape)
     return (data, label)
 def scale_dataset(data):
     data = scale(data)
