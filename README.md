@@ -6,7 +6,7 @@
 
 ## Results
 
-* [Results](/results.csv)
+* [Results](results.csv)
 
 * These results show the error values each model has with the corresponding dataset.
 
